@@ -1,0 +1,12 @@
+origin	git@github.com:bozzochet/grav-plugin-about-me.git (fetch)
+origin	git@github.com:bozzochet/grav-plugin-about-me.git (push)
+original	https://github.com/Birssan/grav-plugin-about-me.git (fetch)
+original	https://github.com/Birssan/grav-plugin-about-me.git (push)
+
+è un fork di "original", quindi ogni tanto uno può fare
+
+git pull original master
+
+per syncarsi (ma vedo che lo aggiornano tanto poco...).
+
+Per il resto lavoro sul mio
