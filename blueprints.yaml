@@ -139,9 +139,10 @@ form:
             social_pages.pages.facebook.icon_type:
               type: toggle
               label: PLUGIN_ABOUTME.SOCIAL_PAGES_TYPES.ICON_TYPE
-              highlight: b
-              default: b
+              highlight: ''
+              default: ''
               options:
+                '': Plain
                 b: Brand
                 s: Solid
                 r: Regular
@@ -179,9 +180,10 @@ form:
             social_pages.pages.twitter.icon_type:
               type: toggle
               label: PLUGIN_ABOUTME.SOCIAL_PAGES_TYPES.ICON_TYPE
-              highlight: b
-              default: b
+              highlight: ''
+              default: ''
               options:
+                '': Plain
                 b: Brand
                 s: Solid
                 r: Regular
@@ -219,9 +221,10 @@ form:
             social_pages.pages.github.icon_type:
               type: toggle
               label: PLUGIN_ABOUTME.SOCIAL_PAGES_TYPES.ICON_TYPE
-              highlight: b
-              default: b
+              highlight: ''
+              default: ''
               options:
+                '': Plain
                 b: Brand
                 s: Solid
                 r: Regular
@@ -259,9 +262,10 @@ form:
             social_pages.pages.linkedin.icon_type:
               type: toggle
               label: PLUGIN_ABOUTME.SOCIAL_PAGES_TYPES.ICON_TYPE
-              highlight: b
-              default: b
+              highlight: ''
+              default: ''
               options:
+                '': Plain
                 b: Brand
                 s: Solid
                 r: Regular
@@ -299,9 +303,10 @@ form:
             social_pages.pages.instagram.icon_type:
               type: toggle
               label: PLUGIN_ABOUTME.SOCIAL_PAGES_TYPES.ICON_TYPE
-              highlight: b
-              default: b
+              highlight: ''
+              default: ''
               options:
+                '': Plain
                 b: Brand
                 s: Solid
                 r: Regular
