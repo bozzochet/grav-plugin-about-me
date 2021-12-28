@@ -4,7 +4,8 @@
 		{% set src = uri.rootUrl(false) ~ (uri.rootUrl(false) == '/' ? '' : '/') ~ aboutme_picture_src %}
 	{% endif %}
 	<img src="{{ src }}" title="{{ aboutme_name }}" alt="Profile picture" class="u-photo" />
-	<h4><a href="{{ base_url == '' ? '/' : base_url }}" class="p-name u-url">{{ aboutme_name }}</a></h4>
+{#	<h4><a href="{{ base_url == '' ? '/' : base_url }}" class="p-name u-url">{{ aboutme_name }}</a></h4> #}
+	<h4>{{ aboutme_name }}</h4>
 	{% if config.plugins.aboutme.show_title -%}
 		<h3>{{ aboutme_title }}</h3>
 	{%- endif %}
